@@ -1,0 +1,44 @@
+class Solution {
+public:
+    int maximumProduct(vector<int>& nums) {
+        
+        // Time Complexity : O(NlgN) 
+        // Space Complexity : O(N)
+
+        if (nums.size() == 3) return nums[0] * nums[1] * nums[2];
+
+        vector<int> pos{};
+        vector<int> neg{};
+        for (auto i : nums) {
+            if (i >= 0) {
+                pos.push_back(i);
+            } else {
+                neg.push_back(i);
+            }
+        }
+        sort(pos.begin(), pos.end(), greater<int>());
+        sort(neg.begin(), neg.end());
+
+        
+        if (pos.size() == 0) {
+            int n = neg.size();
+
+            return neg[n - 1] * neg[n - 2] * neg[n - 3];
+        }
+        if (pos.size() == 1) {
+            return pos[0] * neg[0] * neg[1];
+        }
+        if (pos.size() == 2) {
+            return pos[0] * neg[0] * neg[1];
+        }
+            
+        int res = pos[0] * pos[1] * pos[2];
+
+        if (neg.size() >= 2) {
+            res = max(res, neg[0] * neg[1] * pos[0]);
+        }
+
+        return res;
+        
+    }
+};
