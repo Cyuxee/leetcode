@@ -3,7 +3,7 @@
 - **Date**: YYYY/MM/DD
 - **Difficulty**: Easy / Medium / Hard
 - **Topic**: Array、Hash Table、Two Pointers、Binary Search、DP...
-- **Language**: C++ / Python / Java
+- **Language**: C++
 - **Status**:
   - [ ] First AC 
   - [ ] Optimized
