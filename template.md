@@ -47,3 +47,69 @@ To be filled.
 
 
 ---
+
+
+<!-- # LeetCode Problem Formatter Prompt
+
+Convert the following LeetCode problem statement into clean and well-structured Markdown.
+
+Requirements:
+
+* Do **NOT** change, rewrite, summarize, or translate **any** text.
+* Preserve every word exactly as it appears.
+* Only improve the formatting.
+* Use Markdown headings (`#`, `##`) to organize the content.
+* Put mathematical expressions or formulas inside fenced code blocks when appropriate.
+* Format **Input**, **Output**, and **Explanation** as separate sections.
+* Wrap every Input, Output, and Constraints inside `text` code blocks.
+* Keep every example separated by `---`.
+* Inline variables such as `nums`, `i`, and `j` should use backticks.
+* Preserve all spacing, numbers, punctuation, and capitalization.
+* Do not omit any content.
+* Produce GitHub-compatible Markdown.
+
+Output format:
+
+````markdown
+# 🎯 Problem
+
+...
+
+---
+
+## Example 1
+
+**Input**
+
+```text
+...
+````
+
+**Output**
+
+```text
+...
+```
+
+**Explanation**
+
+...
+
+---
+
+## Example 2
+
+...
+
+---
+
+## Constraints
+
+```text
+...
+```
+
+```
+
+Now convert the following problem statement:
+``` -->

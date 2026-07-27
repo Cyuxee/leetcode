@@ -17,28 +17,66 @@ Optimized: 代表你不是只有 AC，而是已經改成比較好的解法。
 Review Completed: 代表你隔幾天重新寫一次，而且沒有看答案也能寫出來。 -->
 ---
 
+# 🎯 Problem
 
-# 📝 Problem
+Given an integer array `nums`, find three numbers whose product is maximum and return the maximum product.
 
-Given an integer array nums, find three numbers whose product is maximum and return the maximum product.
+---
 
+## Example 1
 
-- Example 1:
-Input: nums = [1,2,3]
-Output: 6
+**Input**
 
-- Example 2:
-Input: nums = [1,2,3,4]
-Output: 24
+```text
+nums = [1,2,3]
+```
 
-- Example 3:
-Input: nums = [-1,-2,-3]
-Output: -6
- 
+**Output**
 
-- Constraints:
+```text
+6
+```
+
+---
+
+## Example 2
+
+**Input**
+
+```text
+nums = [1,2,3,4]
+```
+
+**Output**
+
+```text
+24
+```
+
+---
+
+## Example 3
+
+**Input**
+
+```text
+nums = [-1,-2,-3]
+```
+
+**Output**
+
+```text
+-6
+```
+
+---
+
+## Constraints
+
+```text
 3 <= nums.length <= 10^4
 -1000 <= nums[i] <= 1000
+```
 
 ---
 
