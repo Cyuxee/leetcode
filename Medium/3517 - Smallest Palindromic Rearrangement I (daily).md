@@ -1,6 +1,6 @@
 # LeetCode #3517 - Smallest Palindromic Rearrangement I (daily)
  
-LeetCode Link： [link](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/)
+LeetCode Link： [link](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/description/)
 
 
 - **Date**: 2026/07/28
