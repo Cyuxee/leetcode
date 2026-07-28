@@ -95,8 +95,6 @@ class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
         
-        // Time Complexity : O(NlgN) 
-        // Space Complexity : O(N)
 
         if (nums.size() == 3) return nums[0] * nums[1] * nums[2];
 
